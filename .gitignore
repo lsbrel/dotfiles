@@ -1,0 +1,14 @@
+# Ignore all root items
+/*
+
+# Ignore root dotfiles/folders
+/.*
+
+# Unignore the specific folders you want
+!/kitty/
+!/nvim/
+!/hypr/
+!/waybar/
+
+# Unignore .gitignore itself
+!.gitignore
