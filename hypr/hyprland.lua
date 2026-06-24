@@ -48,7 +48,7 @@ local menu = "fuzzel"
 hl.on("hyprland.start", function()
 	hl.exec_cmd("waybar")
 	hl.exec_cmd("hyprpaper")
-    hl.exec_cmd("hypridle")
+	hl.exec_cmd("hypridle")
 end)
 
 -------------------------------
@@ -92,7 +92,7 @@ hl.config({
 		border_size = 1,
 
 		col = {
-			active_border = { colors = { "rgba(33ccffee)", "rgba(00ff99ee)" }, angle = 45 },
+			active_border = { colors = { "rgba(FFFFFFee)"}, angle = 45 },
 			inactive_border = "rgba(595959aa)",
 		},
 
