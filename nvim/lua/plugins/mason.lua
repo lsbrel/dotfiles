@@ -14,7 +14,6 @@ return {
 			vim.lsp.enable("rust_analyzer")
 			vim.lsp.enable("intelephense")
 			vim.lsp.enable("cmake-language-server")
-            vim.lsp.enable("qmlls")
 
 			vim.lsp.config("lua_ls", {
 				settings = {
