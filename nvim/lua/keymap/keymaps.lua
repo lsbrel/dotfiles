@@ -66,7 +66,7 @@ vim.keymap.set("n", "<leader>f", function()
 end)
 
 -- Bufferline
-vim.keymap.set("n", "<Tab>", ":BufferLineCycleNext<CR>", { silent = true })
-vim.keymap.set("n", "<S-Tab>", ":BufferLineCyclePrev<CR>", { silent = true })
+vim.keymap.set("n", "<M-Right>", ":BufferLineCycleNext<CR>", { silent = true })
+vim.keymap.set("n", "<M-Left>", ":BufferLineCyclePrev<CR>", { silent = true })
 
 vim.keymap.set("n", "<leader>g", require("gitsigns").blame_line)

@@ -14,6 +14,9 @@ return {
 			},
             renderer = {
                 root_folder_modifier = false
+            },
+            update_focused_file = {
+                enable = true
             }
 		})
 	end,
