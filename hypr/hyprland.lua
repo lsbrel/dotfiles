@@ -92,7 +92,7 @@ hl.config({
 		border_size = 1,
 
 		col = {
-			active_border = { colors = { "rgba(FFFFFFee)"}, angle = 45 },
+			active_border = { colors = { "rgba(FFFFFFee)" }, angle = 45 },
 			inactive_border = "rgba(595959aa)",
 		},
 
@@ -252,7 +252,7 @@ hl.device({
 
 local mainMod = "SUPER" -- Sets "Windows" key as main modifier
 
-hl.bind(mainMod .. " + Print", hl.dsp.exec_cmd("hyprshot --mode region -o ~"))
+hl.bind(mainMod .. " + Print", hl.dsp.exec_cmd("hyprshot --mode region -o ~/Imagens/Capturas de tela/"))
 hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen())
 
 -- Example binds, see https://wiki.hypr.land/Configuring/Basics/Binds/ for more
