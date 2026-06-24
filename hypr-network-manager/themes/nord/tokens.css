@@ -1,0 +1,39 @@
+/* hypr-network-manager: Nord theme tokens */
+
+:root {
+  --surface: #2e3440;
+  --surface_soft: #3b4252;
+  --surface_raised: #434c5e;
+  --surface_deep: #242933;
+  --on_surface: #eceff4;
+  --on_surface_variant: #4c566a;
+  --on_surface_soft: #d8dee9;
+
+  --primary: #88c0d0;
+  --secondary: #81a1c1;
+  --error: #bf616a;
+  --success: #a3be8c;
+  --action: #88c0d0;
+  --primary_hover: #9bcdd9;
+  --warning: #ebcb8b;
+  --switch_thumb: var(--on_surface);
+
+  --text: var(--on_surface);
+  --background-alt: alpha(var(--surface), .4);
+  --selected: var(--primary);
+  --hover: alpha(var(--secondary), .16);
+  --urgent: var(--error);
+
+  --line: #3b4252;
+  --line_strong: #434c5e;
+  --active: rgba(136, 192, 208, 0.12);
+  --hover_soft: rgba(67, 76, 94, 0.35);
+  --hover_row: rgba(67, 76, 94, 0.28);
+  --selected_soft: rgba(136, 192, 208, 0.1);
+
+}
+* {
+  color: var(--text);
+  font-size: 13px;
+  font-family: sans-serif;
+}

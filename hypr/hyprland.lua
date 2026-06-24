@@ -34,7 +34,7 @@ hl.monitor({
 -- Set programs that you use
 local terminal = "kitty"
 local fileManager = "dolphin"
-local menu = "rofi -show drun"
+local menu = "fuzzel"
 
 -------------------
 ---- AUTOSTART ----
@@ -46,8 +46,9 @@ local menu = "rofi -show drun"
 -- Or execute your favorite apps at launch like this:
 --
 hl.on("hyprland.start", function()
-	hl.exec_cmd("waybar &")
+	hl.exec_cmd("waybar")
 	hl.exec_cmd("hyprpaper")
+    hl.exec_cmd("hypridle")
 end)
 
 -------------------------------

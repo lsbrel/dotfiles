@@ -1,0 +1,35 @@
+/* hypr-network-manager: Modern theme tokens */
+
+:root {
+  --surface: #0f141b;
+  --on_surface: #e8eef7;
+  --on_surface_variant: #9daaba;
+  --primary: #9ec1ff;
+  --secondary: #78a2ff;
+  --error: #f2a6a6;
+
+  --surface_soft: alpha(var(--surface), 0.84);
+  --surface_raised: alpha(var(--secondary), 0.14);
+  --success: #8dd6b1;
+  --action: var(--primary);
+  --primary_hover: #b7d1ff;
+
+  --text: var(--on_surface);
+  --background-alt: alpha(var(--surface), .42);
+  --selected: var(--primary);
+  --hover: alpha(var(--secondary), 0.08);
+  --urgent: var(--error);
+
+  --line: alpha(var(--on_surface), 0.08);
+  --line_strong: alpha(var(--on_surface), 0.18);
+  --active: alpha(var(--secondary), 0.14);
+  --hover_soft: alpha(var(--secondary), 0.08);
+  --hover_row: alpha(var(--secondary), 0.08);
+  --selected_soft: alpha(var(--secondary), 0.14);
+
+}
+* {
+  color: var(--text);
+  font-size: 13px;
+  font-family: sans-serif;
+}

@@ -9,6 +9,8 @@
 !/nvim/
 !/hypr/
 !/waybar/
+!/fuzzel
+!/hypr-network-manager
 
 # Unignore .gitignore itself
 !.gitignore

@@ -1,0 +1,40 @@
+/* hypr-network-manager: Nord Snow Storm token variant */
+
+:root {
+  --surface: #eceff4;
+  --surface_soft: #e5e9f0;
+  --surface_raised: #d8dee9;
+  --surface_deep: #cfd7e6;
+  --surface_light: #f5f7fb;
+  --on_surface: #2e3440;
+  --on_surface_variant: #4c566a;
+  --on_surface_soft: #3b4252;
+
+  --primary: #5e81ac;
+  --secondary: #81a1c1;
+  --error: #bf616a;
+  --success: #a3be8c;
+  --action: #5e81ac;
+  --primary_hover: #81a1c1;
+  --warning: #ebcb8b;
+  --line: #c2cad9;
+  --line_strong: #b3bccd;
+  --switch_thumb: var(--on_surface_variant);
+
+  --text: var(--on_surface);
+  --background-alt: alpha(var(--surface), .6);
+  --selected: var(--primary);
+  --hover: alpha(var(--secondary), .18);
+  --urgent: var(--error);
+
+  --active: rgba(94, 129, 172, 0.16);
+  --hover_soft: rgba(76, 86, 106, 0.10);
+  --hover_row: rgba(76, 86, 106, 0.07);
+  --selected_soft: rgba(94, 129, 172, 0.12);
+
+}
+* {
+  color: var(--text);
+  font-size: 13px;
+  font-family: sans-serif;
+}
