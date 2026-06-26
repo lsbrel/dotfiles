@@ -11,6 +11,7 @@ return {
 				},
 				left_trunc_marker = "",
 				modified_icon = "●",
+                diagnostics = "nvim_lsp",
 				right_trunc_marker = "",
 				show_close_icon = false,
 				show_tab_indicators = true,
