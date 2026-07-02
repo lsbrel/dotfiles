@@ -14,7 +14,7 @@ return {
 				c = { "clang-format" },
 				cpp = { "clang-format" },
 				rust = { "rustfmt" },
-				php = { "pretty-php" }
+				php = { "pretty-php" },
 			},
 		})
 	end,
