@@ -1,6 +1,8 @@
 vim.cmd("filetype plugin off")
 vim.cmd("set ignorecase")
 
+vim.cmd("set clipboard+=unnamedplus")
+
 vim.cmd("set expandtab")
 vim.cmd("set tabstop=4")
 vim.cmd("set softtabstop=4")

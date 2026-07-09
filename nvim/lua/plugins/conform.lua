@@ -5,6 +5,8 @@ return {
 			formatters_by_ft = {
 				javascript = { "prettier" },
 				typescript = { "prettier" },
+				typescriptreact = { "prettier" },
+				javascriptreact = { "prettier" },
 				json = { "prettier" },
 				terraform = { "terraform_fmt" },
 				python = { "black" },
