@@ -17,6 +17,7 @@ return {
 				cpp = { "clang-format" },
 				rust = { "rustfmt" },
 				php = { "pretty-php" },
+				xml = { "xmlformat" },
 			},
 		})
 	end,
