@@ -18,6 +18,9 @@ return {
 				rust = { "rustfmt" },
 				php = { "pretty-php" },
 				xml = { "xmlformat" },
+				vue = { "prettier" },
+				jsx = { "prettier" },
+				tsx = { "prettier" },
 			},
 		})
 	end,

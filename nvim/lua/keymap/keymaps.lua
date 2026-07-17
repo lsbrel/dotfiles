@@ -70,3 +70,11 @@ vim.keymap.set("n", "<M-Right>", ":BufferLineCycleNext<CR>", { silent = true })
 vim.keymap.set("n", "<M-Left>", ":BufferLineCyclePrev<CR>", { silent = true })
 
 vim.keymap.set("n", "<leader>g", require("gitsigns").blame_line)
+
+vim.keymap.set({ "n", "v" }, "<leader>f", function()
+  require("conform").format({
+    lsp_fallback = true,
+    async = false,
+    timeout_ms = 500,
+  })
+end, { desc = "Format file or range (in visual mode)" })

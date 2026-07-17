@@ -14,6 +14,7 @@ return {
 			vim.lsp.enable("rust_analyzer")
 			vim.lsp.enable("intelephense")
 			vim.lsp.enable("cmake-language-server")
+			vim.lsp.enable("vue-language-server")
 
 			vim.lsp.config("lua_ls", {
 				settings = {
@@ -25,14 +26,14 @@ return {
 				},
 			})
 
-            vim.lsp.config("ts_ls", {
-                filetypes = {
-                    "typescript",
-                    "javascript",
-                    "typescriptreact",
-                    "javascriptreact"
-                },
-            })
+			vim.lsp.config("ts_ls", {
+				filetypes = {
+					"typescript",
+					"javascript",
+					"typescriptreact",
+					"javascriptreact",
+				},
+			})
 
 			vim.lsp.config("pylsp", {
 				settings = {

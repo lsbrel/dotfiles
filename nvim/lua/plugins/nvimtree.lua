@@ -12,12 +12,16 @@ return {
 				ignore = false,
 				timeout = 400,
 			},
-            renderer = {
-                root_folder_modifier = false
-            },
-            update_focused_file = {
-                enable = true
-            }
+			renderer = {
+				root_folder_modifier = false,
+			},
+			update_focused_file = {
+				enable = true,
+			},
+			diagnostics = {
+				enable = true,
+				show_on_dirs = true,
+			},
 		})
 	end,
 }
