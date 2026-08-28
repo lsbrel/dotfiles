@@ -31,5 +31,5 @@ vim.api.nvim_create_autocmd("FileType", {
 vim.diagnostic.config({ virtual_text = true })
 
 -- Tema
-vim.cmd("colorscheme vscode")
-vim.o.background = "dark"
+vim.cmd("colorscheme kanagawa-dragon")
+-- vim.o.background = "dark"
